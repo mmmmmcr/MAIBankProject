@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/select_account"
+            android:textColor="@color/orange"
+            android:layout_gravity="left"/>
+
+        <Spinner
+            android:id="@+id/spinnerAccounts"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="24dp"
+            android:minHeight="48dp"/>
+
+        <EditText
+            android:id="@+id/sold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="24dp"
+            android:hint="@string/sold"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/fieldCustomerNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="24dp"
+            android:hint="@string/customerNumber"
+            android:textColor="@color/black"
+            android:textAlignment="center"/>
+
+
+        <Button
+            android:id="@+id/btn_pay"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="12dp"
+            android:text="@string/transfer"
+            android:background="@drawable/round_button_default"/>
+
+    </LinearLayout>
+</ScrollView>

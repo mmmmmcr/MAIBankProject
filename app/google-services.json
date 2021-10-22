@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "590996836299",
+    "firebase_url": "https://maibank-4bd37-default-rtdb.firebaseio.com",
+    "project_id": "maibank-4bd37",
+    "storage_bucket": "maibank-4bd37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590996836299:android:3a1e56d7db92fa1b1e704e",
+        "android_client_info": {
+          "package_name": "com.example.maibank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590996836299-j1iu33o32avgqdc3lt26o344a6mhlvog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1FxWDSjpGkAAr5NQVAdeHngjiq-3ND3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590996836299-j1iu33o32avgqdc3lt26o344a6mhlvog.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
