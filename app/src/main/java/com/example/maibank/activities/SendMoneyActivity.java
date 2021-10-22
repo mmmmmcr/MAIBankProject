@@ -1,4 +1,4 @@
-package com.example.maibank.Activities;
+package com.example.maibank.activities;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -12,12 +12,12 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.maibank.Adapters.SpinnerAdapter;
-import com.example.maibank.Models.Account;
-import com.example.maibank.Models.Accounts;
-import com.example.maibank.Models.Transaction;
+import com.example.maibank.adapters.SpinnerAdapter;
+import com.example.maibank.models.Account;
+import com.example.maibank.models.Accounts;
+import com.example.maibank.models.Transaction;
 import com.example.maibank.R;
-import com.example.maibank.Util.DatabaseUtil;
+import com.example.maibank.util.DatabaseUtil;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.Query;
@@ -28,7 +28,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import static com.example.maibank.Util.DatabaseUtil.ACCOUNTS;
+import static com.example.maibank.util.DatabaseUtil.ACCOUNTS;
 
 public class SendMoneyActivity extends Activity {
 

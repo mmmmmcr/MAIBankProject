@@ -1,16 +1,15 @@
-package com.example.maibank.Activities;
+package com.example.maibank.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
-import android.graphics.Color;
 import android.os.Bundle;
 
-import com.example.maibank.Adapters.PageAdapter;
-import com.example.maibank.Fragments.AccountsPageFragment;
-import com.example.maibank.Fragments.HomePageFragment;
-import com.example.maibank.Fragments.InfoPageFragment;
-import com.example.maibank.Fragments.PaymentsPageFragment;
+import com.example.maibank.adapters.PageAdapter;
+import com.example.maibank.fragments.AccountsPageFragment;
+import com.example.maibank.fragments.HomePageFragment;
+import com.example.maibank.fragments.InfoPageFragment;
+import com.example.maibank.fragments.PaymentsPageFragment;
 import com.example.maibank.R;
 import com.google.android.material.tabs.TabLayout;
 

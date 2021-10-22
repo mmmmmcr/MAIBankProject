@@ -1,4 +1,4 @@
-package com.example.maibank.Activities;
+package com.example.maibank.activities;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -13,9 +13,9 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 
 import com.example.maibank.R;
-import com.example.maibank.Models.User;
-import com.example.maibank.Util.SharedPreferencesUtil;
-import com.example.maibank.Util.Utils;
+import com.example.maibank.models.User;
+import com.example.maibank.util.SharedPreferencesUtil;
+import com.example.maibank.util.Utils;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;

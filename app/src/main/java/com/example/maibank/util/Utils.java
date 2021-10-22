@@ -1,4 +1,4 @@
-package com.example.maibank.Util;
+package com.example.maibank.util;
 
 import android.widget.EditText;
 

@@ -1,4 +1,4 @@
-package com.example.maibank.Adapters;
+package com.example.maibank.adapters;
 
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;

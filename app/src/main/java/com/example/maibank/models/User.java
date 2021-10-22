@@ -1,4 +1,4 @@
-package com.example.maibank.Models;
+package com.example.maibank.models;
 
 /**
  * The current user

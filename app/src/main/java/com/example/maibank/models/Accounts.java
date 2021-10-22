@@ -1,6 +1,5 @@
-package com.example.maibank.Models;
+package com.example.maibank.models;
 
-import java.util.List;
 import java.util.Map;
 
 public class Accounts {

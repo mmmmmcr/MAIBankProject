@@ -1,36 +1,28 @@
-package com.example.maibank.Activities;
+package com.example.maibank.activities;
 
 import android.Manifest;
 import android.app.Activity;
-import android.content.Intent;
 import android.graphics.Paint;
 import android.graphics.pdf.PdfDocument;
-import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
-import com.example.maibank.Adapters.ListViewAdapter;
-import com.example.maibank.Models.Transaction;
-import com.example.maibank.Models.Transactions;
+import com.example.maibank.adapters.ListViewAdapter;
+import com.example.maibank.models.Transactions;
 import com.example.maibank.R;
-import com.example.maibank.Util.DatabaseUtil;
-import com.example.maibank.Util.PermissionUtility;
+import com.example.maibank.util.DatabaseUtil;
+import com.example.maibank.util.PermissionUtility;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.ValueEventListener;
 
 import java.io.File;
 import java.io.FileOutputStream;
-import java.util.ArrayList;
-import java.util.List;
 
 public class TransactionHistoryActivity extends Activity {
     private Transactions transactions;

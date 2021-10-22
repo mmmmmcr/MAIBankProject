@@ -1,6 +1,5 @@
-package com.example.maibank.Fragments;
+package com.example.maibank.fragments;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,11 +10,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.maibank.Activities.LoginActivity;
-import com.example.maibank.Activities.PayABillActivity;
-import com.example.maibank.Activities.RegisterActivity;
-import com.example.maibank.Activities.SendMoneyActivity;
-import com.example.maibank.Activities.TransactionHistoryActivity;
+import com.example.maibank.activities.PayABillActivity;
+import com.example.maibank.activities.SendMoneyActivity;
+import com.example.maibank.activities.TransactionHistoryActivity;
 import com.example.maibank.R;
 
 public class PaymentsPageFragment extends Fragment {

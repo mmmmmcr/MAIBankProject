@@ -1,4 +1,4 @@
-package com.example.maibank.Activities;
+package com.example.maibank.activities;
 
 import android.content.Intent;
 import android.os.Bundle;

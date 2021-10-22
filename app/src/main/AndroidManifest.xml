@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".Activities.SplashScreenActivity"
+        <activity android:name=".activities.SplashScreenActivity"
             android:theme="@style/SplashScreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,14 +22,14 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Activities.MainActivity" />
-        <activity android:name=".Activities.LoginActivity"/>
-        <activity android:name=".Activities.RegisterActivity"/>
-        <activity android:name=".Activities.ContactActivity"/>
-        <activity android:name=".Activities.PayABillActivity"/>
-        <activity android:name=".Activities.SendMoneyActivity"/>
-        <activity android:name=".Activities.TransactionHistoryActivity"/>
-        <activity android:name=".Activities.EditInfoActivity" />
+        <activity android:name=".activities.MainActivity" />
+        <activity android:name=".activities.LoginActivity"/>
+        <activity android:name=".activities.RegisterActivity"/>
+        <activity android:name=".activities.ContactActivity"/>
+        <activity android:name=".activities.PayABillActivity"/>
+        <activity android:name=".activities.SendMoneyActivity"/>
+        <activity android:name=".activities.TransactionHistoryActivity"/>
+        <activity android:name=".activities.EditInfoActivity" />
 
 
     </application>

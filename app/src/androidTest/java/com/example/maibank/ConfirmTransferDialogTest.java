@@ -3,7 +3,7 @@ package com.example.maibank;
 import androidx.test.ext.junit.rules.ActivityScenarioRule;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 
-import com.example.maibank.Activities.SendMoneyActivity;
+import com.example.maibank.activities.SendMoneyActivity;
 
 import org.junit.Rule;
 import org.junit.Test;

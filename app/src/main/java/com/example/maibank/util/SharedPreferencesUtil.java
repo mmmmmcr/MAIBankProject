@@ -1,4 +1,4 @@
-package com.example.maibank.Util;
+package com.example.maibank.util;
 
 import android.app.Activity;
 import android.content.Context;

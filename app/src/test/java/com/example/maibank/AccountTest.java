@@ -4,7 +4,7 @@ import android.text.Editable;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.example.maibank.Fragments.HomePageFragment;
+import com.example.maibank.fragments.HomePageFragment;
 
 import junit.framework.TestCase;
 

@@ -1,8 +1,8 @@
-package com.example.maibank.Util;
+package com.example.maibank.util;
 
 import androidx.annotation.NonNull;
 
-import com.example.maibank.Models.Transaction;
+import com.example.maibank.models.Transaction;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;

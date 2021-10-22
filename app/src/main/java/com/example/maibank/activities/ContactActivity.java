@@ -1,4 +1,4 @@
-package com.example.maibank.Activities;
+package com.example.maibank.activities;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -48,12 +48,12 @@ public class ContactActivity extends Activity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                if(action.equalsIgnoreCase("email")){
+                if(action.equalsIgnoreCase(getString(R.string.email))){
                     Intent intent = new Intent(Intent.ACTION_SEND);
                     intent.setType("text/html");
                     intent.putExtra(intent.EXTRA_EMAIL, new String[]{((TextView)view).getText().toString()});
-                    intent.putExtra(intent.EXTRA_SUBJECT, "MAIBank support");
-                    startActivity(Intent.createChooser(intent, "Send Email"));
+                    intent.putExtra(intent.EXTRA_SUBJECT, getString(R.string.maiBank_support));
+                    startActivity(Intent.createChooser(intent, getString(R.string.send_email)));
                 }
 
                 if(action.equalsIgnoreCase("phone")){

@@ -7,10 +7,10 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.platform.app.InstrumentationRegistry;
 import androidx.test.runner.lifecycle.ActivityLifecycleMonitorRegistry;
 
-import com.example.maibank.Activities.MainActivity;
-import com.example.maibank.Activities.PayABillActivity;
-import com.example.maibank.Activities.SendMoneyActivity;
-import com.example.maibank.Activities.TransactionHistoryActivity;
+import com.example.maibank.activities.MainActivity;
+import com.example.maibank.activities.PayABillActivity;
+import com.example.maibank.activities.SendMoneyActivity;
+import com.example.maibank.activities.TransactionHistoryActivity;
 
 import org.junit.Rule;
 import org.junit.Test;

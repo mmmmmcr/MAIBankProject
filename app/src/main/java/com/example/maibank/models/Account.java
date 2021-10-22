@@ -1,4 +1,4 @@
-package com.example.maibank.Models;
+package com.example.maibank.models;
 
 public class Account {
     private double sold;

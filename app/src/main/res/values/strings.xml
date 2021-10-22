@@ -40,4 +40,7 @@
     <string name="transactiondate">Transaction Date</string>
     <string name="create_new_account">Create new account</string>
     <string name="update_button">Save Information</string>
+    <string name="maiBank_support">MAIBank support</string>
+    <string name="send_email">Send Email</string>
+    <string name="email">email</string>
 </resources>

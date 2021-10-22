@@ -7,9 +7,9 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.platform.app.InstrumentationRegistry;
 import androidx.test.runner.lifecycle.ActivityLifecycleMonitorRegistry;
 
-import com.example.maibank.Activities.ContactActivity;
-import com.example.maibank.Activities.EditInfoActivity;
-import com.example.maibank.Activities.MainActivity;
+import com.example.maibank.activities.ContactActivity;
+import com.example.maibank.activities.EditInfoActivity;
+import com.example.maibank.activities.MainActivity;
 
 import org.junit.Rule;
 import org.junit.Test;

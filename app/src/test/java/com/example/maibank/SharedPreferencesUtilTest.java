@@ -3,7 +3,7 @@ package com.example.maibank;
 import android.app.Activity;
 import android.content.SharedPreferences;
 
-import com.example.maibank.Util.SharedPreferencesUtil;
+import com.example.maibank.util.SharedPreferencesUtil;
 
 import org.junit.Assert;
 import org.junit.Before;

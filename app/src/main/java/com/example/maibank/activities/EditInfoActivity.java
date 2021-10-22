@@ -1,4 +1,4 @@
-package com.example.maibank.Activities;
+package com.example.maibank.activities;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,10 +8,10 @@ import android.widget.EditText;
 
 import androidx.annotation.NonNull;
 
-import com.example.maibank.Fragments.InfoPageFragment;
-import com.example.maibank.Models.User;
+import com.example.maibank.fragments.InfoPageFragment;
+import com.example.maibank.models.User;
 import com.example.maibank.R;
-import com.example.maibank.Util.DatabaseUtil;
+import com.example.maibank.util.DatabaseUtil;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;

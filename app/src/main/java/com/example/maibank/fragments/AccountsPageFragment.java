@@ -1,4 +1,4 @@
-package com.example.maibank.Fragments;
+package com.example.maibank.fragments;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,19 +6,17 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.maibank.Activities.ContactActivity;
-import com.example.maibank.Adapters.SpinnerAdapter;
-import com.example.maibank.Models.Account;
-import com.example.maibank.Models.Accounts;
+import com.example.maibank.activities.ContactActivity;
+import com.example.maibank.models.Account;
+import com.example.maibank.models.Accounts;
 import com.example.maibank.R;
-import com.example.maibank.Util.DatabaseUtil;
+import com.example.maibank.util.DatabaseUtil;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.Query;

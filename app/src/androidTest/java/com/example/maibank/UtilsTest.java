@@ -1,14 +1,12 @@
 package com.example.maibank;
 
-import android.app.Activity;
 import android.content.Context;
 import android.widget.EditText;
 
 import androidx.test.platform.app.InstrumentationRegistry;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 
-import com.example.maibank.Util.SharedPreferencesUtil;
-import com.example.maibank.Util.Utils;
+import com.example.maibank.util.Utils;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

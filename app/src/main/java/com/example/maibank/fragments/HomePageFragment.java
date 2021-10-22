@@ -1,4 +1,4 @@
-package com.example.maibank.Fragments;
+package com.example.maibank.fragments;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,27 +8,23 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.maibank.Activities.LoginActivity;
-import com.example.maibank.Models.Account;
-import com.example.maibank.Models.Accounts;
+import com.example.maibank.activities.LoginActivity;
+import com.example.maibank.models.Account;
+import com.example.maibank.models.Accounts;
 import com.example.maibank.R;
-import com.example.maibank.Util.DatabaseUtil;
-import com.example.maibank.Util.SharedPreferencesUtil;
+import com.example.maibank.util.DatabaseUtil;
+import com.example.maibank.util.SharedPreferencesUtil;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
-import java.util.List;
 import java.util.Map;
 
 public class HomePageFragment extends Fragment {
